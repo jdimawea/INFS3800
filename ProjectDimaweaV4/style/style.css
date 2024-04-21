@@ -3,3 +3,163 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.grid {
+	display: grid;
+	grid-template-rows: auto 1fr auto; 
+	min-height: 100vh;;
+	grid-template-areas:
+		"header"
+		"body"
+		"footer";
+}
+
+/* HEADER */
+
+.u-header {
+	grid-area: header;
+	display: flex;
+	place-items: center;
+	justify-content: space-between;
+	height: 85px;
+	border-bottom: solid 1px gray;
+}
+
+.u-header img {
+	height: auto;
+	width: 50px;
+	border-radius: 25%;
+	margin-left: 75px;	
+}
+
+.u-header nav {
+	margin-right: 75px;
+}
+
+.u-header nav a {
+	margin-left: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
+/* BODY */
+
+.u-body {
+	grid-area: body;
+}
+
+/* FOOTER */
+
+.u-footer {
+	grid-area: footer;
+	height: ;
+	border-top: solid 1px gray;
+	display: flex;
+	justify-content: left;
+	place-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.grid .u-footer .left{
+	width: 50%;
+	padding-left: 30px;
+	font-size: 30px;
+	color: #949494;
+}
+
+.grid .u-footer .right{
+	width: 50%;
+	padding-left: 30px;
+	font-size: 30px;
+	color: #949494;
+}
+
+.grid .u-footer .right p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.grid .u-footer .right a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
+.grid .u-footer .location {
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
+/* INDEX */
+
+.i-body {
+	place-items: center;
+}
+
+.container1 {
+	height: 400px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-left: 100px;
+	text-align: left;
+	font-family: arial;
+	font-size: 55px;
+}
+
+.container2 {
+	width: auto;
+}
+
+.container2 img {
+	width: 100%;
+}
+
+.container2 p {
+	font-size: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.container3 {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.container3 img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.container3 p {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.card1 {
+	position: relative;
+	width: 40%;
+	margin: 20px;
+	margin-right: 10px;
+}
+
+.card2 {
+	position: relative;
+	width: 60%;
+	margin: 20px;
+	margin-left: 10px;
+}
