@@ -1,3 +1,4 @@
+<?php include '../inc/publicsession.inc' ; ?>
 <html>
 <head>
 	<title>About Us</title>

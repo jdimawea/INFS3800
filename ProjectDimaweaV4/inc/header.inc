@@ -5,16 +5,14 @@
 				<a href='http://localhost/infs3800/ProjectDimaweaV4/php/about.php'>About Us</a>
 				<a href='http://localhost/infs3800/ProjectDimaweaV4/php/contact.php'>Contact Us</a>
 				<!-- add logoff in php -->
-				<a href='http://localhost/infs3800/ProjectDimaweaV4/php/login.php'>Login</a>
-				<!--
 				<?php
-					if (isset($_SESSION['name'])) {
-						echo "<a href='http://localhost/infs3800/ProjectDimaweaV4/inc/logout.inc'>Logout</a>";
+					if (isset($_SESSION['user'])) {
+						echo "<a href='http://localhost/infs3800/ProjectDimaweaV4/php/logout.php'>Logout</a>";
 					} else {
 						echo "<a href='http://localhost/infs3800/ProjectDimaweaV4/php/login.php'>Login</a>";
 					}				
 				?>
-				-->
+
 				
 			</nav>			
 		</div>

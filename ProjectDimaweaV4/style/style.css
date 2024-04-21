@@ -287,3 +287,24 @@ article ul {
 .login-form .submit:hover {
     background-color: #0056b3;
 }
+
+/* HOME */
+.p-body {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within each item */
+    height: calc(100vh - header_height - footer_height); /* Adjust for header and footer */
+}
+
+.p-body h1 {
+    margin-bottom: 2rem; /* Add space below the h1 */
+}
+
+.p-body video {
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Maximum size */
+    height: auto; /* Maintain aspect ratio */
+}
+

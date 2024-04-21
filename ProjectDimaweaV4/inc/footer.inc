@@ -1,7 +1,7 @@
 		<div class="u-footer">
 			<div class="left">
 				<p> Sign up for our newsletter<br>
-				<input type="text" name="email" value="-Your email">
+				<input type="text" name="email" placeholder="-Your email">
 				</p>
 			</div>
 			<div class="right">

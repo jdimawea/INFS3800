@@ -22,15 +22,15 @@
 				// Checking if un and pw are empty
 				if (empty($un) && empty($pw)) {
 					session_destroy() ;
-					echo 'Username and Password are required' ;
+					echo '<h1>Username and Password are required</h1>' ;
 					header ('refresh:3; url=login.php') ;
 				}else if (empty($un)) {
 					session_destroy() ;
-					echo 'Username is required' ;
+					echo '<h1>Username is required</h1>' ;
 					header ('refresh:3; url=login.php') ;
 				}else if (empty($pw)) {
 					session_destroy() ;
-					echo 'Password is required' ;
+					echo '<h1>Password is required</h1>' ;
 					header ('refresh:3; url=login.php') ;
 				}else {
 					$query = "SELECT * FROM login WHERE user='$un' AND pass='$pw'" ;
@@ -40,14 +40,14 @@
 					if (mysqli_num_rows($result) === 1) {
 						$row = mysqli_fetch_assoc($result) ;
 						if ($row['user'] === $un && $row['pass'] === $pw) {
-							echo "Welcome " . $un ;
+							echo "<h1>Welcome " . $un . "</h1>";
 							$_SESSION['login'] = "true" ;
 							$_SESSION['user'] = $row['user'] ;
 							header ('refresh:2; url=phome.php') ;
 						}
 					}else {
 						session_destroy();
-						echo 'Incorrect Username or Password' ;
+						echo '<h1>Incorrect Username or Password</h1>' ;
 						header ('refresh:3; url=login.php') ;
 					}
 				}
