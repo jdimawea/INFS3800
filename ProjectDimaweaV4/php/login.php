@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Contact Us</title>
+	<title>Login</title>
 	<?php include '../inc/head.inc' ; ?>
 </head>
 <body>

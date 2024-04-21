@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Home</title>
+	<title>Main</title>
 	<?php include '../inc/head.inc' ; ?>
 </head>
 <body>
