@@ -117,6 +117,8 @@ html, body {
 	text-align: left;
 	font-family: arial;
 	font-size: 55px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 .container2 {
@@ -130,7 +132,8 @@ html, body {
 .container2 p {
 	font-size: 30px;
 	margin-left: 20px;
-	margin-top: 20px;
+	margin-top: 25px;
+	margin-bottom: 180px;
 }
 
 .container3 {
@@ -146,8 +149,9 @@ html, body {
 }
 
 .container3 p {
-	font-size: 20px;
-	margin-top: 20px;
+	font-size: 30px;
+	margin-top: 25px;
+	margin-bottom: 180px;
 }
 
 .card1 {
@@ -162,6 +166,38 @@ html, body {
 	width: 60%;
 	margin: 20px;
 	margin-left: 10px;
+}
+
+.container4 {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.container4 img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.container4 p {
+	font-size: 30px;
+	margin-top: 25px;
+	margin-bottom: 180px;
+}
+
+.card4 {
+	position: relative;
+	width: 40%;
+	margin: 20px;
+	margin-left: 10px;
+}
+
+.card3 {
+	position: relative;
+	width: 60%;
+	margin: 20px;
+	margin-right: 10px;
 }
 
 /* ABOUT */

@@ -14,7 +14,7 @@
 				<div class='container1'>
 					<p class='p1'>
 						<span>Technology made Beautiful.</span> <br>
-						<span>A future-focused digital studio</span> <br>
+						<span>A future-focused AI digital studio</span> <br>
 						<span>passionate about bringing clarity to</span> <br>
 						<span>the complex.</span> <br>
 					</p>
@@ -33,6 +33,16 @@
 						<p>Imperial Stardestroyer</p>
 					</div>
 				</div>
+				<div class='container4'>
+					<div class='card3'>
+						<img class='img1' src="../img/tiger.png">
+						<p>Cyborg Tiger</p>
+					</div>
+					<div class='card4'>
+						<img class='img1' src="../img/stonks.png">
+						<p>Wallstreet Year 3000</p>
+					</div>
+				</div>				
 			</main>				
 		</div>
 		
