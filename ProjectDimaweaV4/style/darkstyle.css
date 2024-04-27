@@ -9,8 +9,8 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: white;
-	color: black;
+	background-color: black;
+	color: white;
 }
 
 .grid {
@@ -23,7 +23,6 @@ html, body {
 		"footer";
 }
 
-
 /* HEADER */
 
 .u-header {
@@ -32,7 +31,7 @@ html, body {
 	place-items: center;
 	justify-content: space-between;
 	height: 85px;
-	border-bottom: solid 1px gray;
+	border-bottom: solid 1px rebeccapurple;
 }
 
 .u-header img {
@@ -50,7 +49,7 @@ html, body {
 	margin-left: 10px;
 	font-size: 20px;
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	cursor: pointer;
 }
 
@@ -65,7 +64,7 @@ html, body {
 .u-footer {
 	grid-area: footer;
 	height: ;
-	border-top: solid 1px gray;
+	border-top: solid 1px rebeccapurple;
 	display: flex;
 	justify-content: left;
 	place-items: center;
@@ -95,14 +94,14 @@ html, body {
 .grid .u-footer .right a{
 	font-size: 20px;
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	cursor: pointer;
 }
 
 .grid .u-footer .location {
 	font-size: 20px;
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	cursor: pointer;
 }
 
@@ -131,6 +130,8 @@ html, body {
 
 .container2 img {
 	width: 100%;
+	border-top: solid 1px rebeccapurple;
+	border-bottom: solid 1px rebeccapurple;
 }
 
 .container2 p {
@@ -149,6 +150,7 @@ html, body {
 	width: 100%;
 	height: auto;
 	display: block;
+	border: solid 1px rebeccapurple;
 }
 
 .container3 p {
@@ -180,6 +182,7 @@ html, body {
 	width: 100%;
 	height: auto;
 	display: block;
+	border: solid 1px rebeccapurple;
 }
 
 .container4 p {

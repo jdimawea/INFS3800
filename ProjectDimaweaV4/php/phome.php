@@ -9,14 +9,38 @@
 	
 		<?php include '../inc/header.inc' ; ?>
 		
-		<div class="u-body p-body">
-			
-			<h1>To Be Continued...</h1>
-			<video controls autoplay>
-				<source src="../img/secretsauce.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-			</video>
-			
+		<div class="u-body i-body">
+			<main>
+				<div class='container1'>
+					<p class='p1'>
+						<span>Collection <i>Noir</i></span> <br>
+					</p>
+				</div>
+				<div class='container2'>
+					<img class='img1' src="../img/lambobanner.png">
+					<p>Lamborghini Alfredo</p>
+				</div>
+				<div class='container3'>
+					<div class='card1'>
+						<img class='img1' src="../img/samurai.png">
+						<p>Keyboard Warrior</p>
+					</div>
+					<div class='card2'>
+						<img class='img1' src="../img/gamingsetup.png">
+						<p>Paradise</p>
+					</div>
+				</div>
+				<div class='container4'>
+					<div class='card3'>
+						<img class='img1' src="../img/jett.png">
+						<p>Taxes</p>
+					</div>
+					<div class='card4'>
+						<img class='img1' src="../img/futuristicspace.png">
+						<p>Space Race</p>
+					</div>
+				</div>				
+			</main>				
 		</div>
 		
 		<?php include '../inc/footer.inc' ; ?>
