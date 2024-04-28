@@ -17,26 +17,36 @@
 					</p>
 				</div>
 				<div class='container2'>
-					<img class='img1' src="../img/lambobanner.png">
+					<div class='image-container'>
+						<img class='img1' src="../img/lambobanner.png">
+					</div>
 					<p>Lamborghini Alfredo</p>
 				</div>
 				<div class='container3'>
 					<div class='card1'>
-						<img class='img1' src="../img/samurai.png">
+						<div class='ic-small'>
+							<img class='img1' src="../img/samurai.png">
+						</div>
 						<p>Keyboard Warrior</p>
 					</div>
 					<div class='card2'>
-						<img class='img1' src="../img/gamingsetup.png">
+						<div class='ic-big'>
+							<img class='img1' src="../img/gamingsetup.png">
+						</div>		
 						<p>Paradise</p>
 					</div>
 				</div>
 				<div class='container4'>
 					<div class='card3'>
-						<img class='img1' src="../img/jett.png">
+						<div class='ic-big'>
+							<img class='img1' src="../img/jett.png">
+						</div>					
 						<p>Tax Payer Money</p>
 					</div>
 					<div class='card4'>
-						<img class='img1' src="../img/futuristicspace.png">
+						<div class='ic-small'>
+							<img class='img1' src="../img/futuristicspace.png">
+						</div>
 						<p>Space Race</p>
 					</div>
 				</div>				

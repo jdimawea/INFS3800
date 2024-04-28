@@ -20,26 +20,36 @@
 					</p>
 				</div>
 				<div class='container2'>
-					<img class='img1' src="../img/AiDragon.png">
+					<div class='image-container'>
+						<img class='img1' src="../img/AiDragon.png">
+					</div>
 					<p>Ai Generated Dragon</p>
 				</div>
 				<div class='container3'>
 					<div class='card1'>
-						<img class='img1' src="../img/f1img.png">
+						<div class='ic-small'>
+							<img class='img1' src="../img/f1img.png">
+						</div>
 						<p>Redbull F1</p>
 					</div>
 					<div class='card2'>
-						<img class='img1' src="../img/stardestroyer.png">
+						<div class='ic-big'>
+							<img class='img1' src="../img/stardestroyer.png">
+						</div>					
 						<p>Imperial Stardestroyer</p>
 					</div>
 				</div>
 				<div class='container4'>
 					<div class='card3'>
-						<img class='img1' src="../img/tiger.png">
+						<div class='ic-big'>
+							<img class='img1' src="../img/tiger.png">
+						</div>	
 						<p>Cyborg Tiger</p>
 					</div>
 					<div class='card4'>
-						<img class='img1' src="../img/stonks.png">
+						<div class='ic-small'>
+							<img class='img1' src="../img/stonks.png">
+						</div>						
 						<p>Wallstreet Year 3000</p>
 					</div>
 				</div>				

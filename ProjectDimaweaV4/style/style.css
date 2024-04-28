@@ -58,16 +58,15 @@ html, body {
     font-size: 16px; 
     outline: none;
 	margin-right: 30px;
-	transition: background-color 0.3s;
+	transition: background-color 0.5s;
 }
-
 
 .dropdown {
     position: relative; 
 }
 
 .dropdown-content {
-    display: none;
+	display: none;
     position: absolute;
     right: 0; 
     background-color: white;
@@ -84,7 +83,7 @@ html, body {
     text-decoration: none;
     display: block;
     white-space: nowrap; 
-	transition: background-color 0.3s;
+	transition: background-color 1s;
 }
 
 .dropdown-content a:hover {
@@ -173,18 +172,33 @@ html, body {
 }
 
 .container2 {
-	width: auto;
+    width: auto;
+    margin-bottom: 180px; 
 }
 
-.container2 img {
-	width: 100%;
+.image-container {
+    height: 945px; 
+    overflow: hidden;
+    display: flex;
+    align-items: center; 
+}
+
+.image-container .img1 {
+    width: 100%;
+    height: auto;
+    transition: transform 1s ease;
+    transform: scale(1.2); 
+}
+
+.image-container .img1:hover {
+    transform: scale(1); 
 }
 
 .container2 p {
-	font-size: 30px;
-	margin-left: 20px;
-	margin-top: 25px;
-	margin-bottom: 180px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 180px;
 }
 
 .container3 {
@@ -196,6 +210,30 @@ html, body {
 	width: 100%;
 	height: auto;
 	display: block;
+}
+
+.ic-small, .ic-big {
+    overflow: hidden; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.ic-small {
+    height: 650px;
+}
+
+.ic-big {
+    height: 545px; 
+}
+
+.ic-small img, .ic-big img {
+    transition: transform 1s ease; 
+    transform: scale(1.1);
+}
+
+.ic-small img:hover, .ic-big img:hover {
+    transform: scale(1); 
 }
 
 .container3 p {
@@ -420,6 +458,22 @@ article ul {
     width: 100%;
     height: auto;
     display: block; 
+	--_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+	--m:
+		left   var(--_i,0%) top    var(--_g),
+		bottom var(--_i,0%) left   var(--_g),
+		top    var(--_i,0%) right  var(--_g),
+		right  var(--_i,0%) bottom var(--_g);
+	-webkit-mask: var(--m);
+		mask: var(--m);	
+	filter: grayscale();
+	transition: .5s linear;
+	cursor: pointer;
+}
+
+.banner img:hover {
+  --_i: 10%;
+  filter: grayscale(0);
 }
 
 .menu-links {
@@ -495,18 +549,18 @@ article ul {
 .r-body {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically */
+    align-items: center; 
+    justify-content: center; 
     padding: 20px;
     width: 100%;
-    min-height: calc(100vh - header_height - footer_height); /* Adjust this value to account for your header and footer height */
+    min-height: calc(100vh - header_height - footer_height); 
 }
 
 .results-list {
     list-style-type: none;
     padding: 0;
     width: 100%;
-    max-width: 300px; /* Adjust this width as needed */
+    max-width: 300px; 
 }
 
 .result-item {
@@ -515,7 +569,7 @@ article ul {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 	text-align: center;
 }
 

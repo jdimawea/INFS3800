@@ -4,7 +4,6 @@
 				<div class="dropdown">
 					<button class="dropbtn"></button>
 					<div class="dropdown-content">
-					<div class="dropdown-content">
 						<a href='http://localhost/infs3800/ProjectDimaweaV4/php/index.php'>Home</a>
 						<a href='http://localhost/infs3800/ProjectDimaweaV4/php/about.php'>About Us</a>
 						<a href='http://localhost/infs3800/ProjectDimaweaV4/php/contact.php'>Contact Us</a>
@@ -18,7 +17,6 @@
 								echo "<a href='http://localhost/infs3800/ProjectDimaweaV4/php/login.php'>Login</a>";
 							}
 						?>
-					</div>
 					</div>
 				</div>
 			</nav>

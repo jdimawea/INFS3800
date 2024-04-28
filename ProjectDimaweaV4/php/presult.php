@@ -13,7 +13,7 @@
 		<div class="u-body r-body">
 			<?php
 				$input = $_POST['input']; 
-				$query = "SELECT * FROM tools WHERE tool OR category OR price LIKE '%$input%'"; 
+				$query = "SELECT * FROM tools WHERE tool LIKE '%$input%' OR category LIKE '%$input%' OR price LIKE '%$input%'"; 
 				
 				$result = mysqli_query($con, $query);
 				
