@@ -10,8 +10,8 @@
 		<?php include '../inc/header.inc' ; ?>
 			
 		<div class="u-body s-body">
-			<form action="presult.php" method="post"> <!-- Update action to your search handling page -->
-				<input type="text" name="query" placeholder="Search for AI Technologies...">
+			<form action="presult.php" method="post"> 
+				<input type="text" name="input" placeholder="Search for AI Technologies...">
 				<button type="submit">Search</button>
 			</form>			
 		</div>
