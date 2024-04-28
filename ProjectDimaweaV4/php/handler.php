@@ -43,7 +43,7 @@
 							echo "<h1>Welcome " . $un . "</h1>";
 							$_SESSION['login'] = "true" ;
 							$_SESSION['user'] = $row['user'] ;
-							header ('refresh:2; url=phome.php') ;
+							header ('refresh:2; url=pmenu.php') ;
 						}
 					}else {
 						session_destroy();

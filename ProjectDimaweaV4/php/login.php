@@ -1,7 +1,7 @@
 <?php include '../inc/publicsession.inc' ; ?>
 <html>
 <head>
-	<title>Login</title>
+	<title>GenerationAI - Login</title>
 	<?php include '../inc/head.inc' ; ?>
 </head>
 <body>

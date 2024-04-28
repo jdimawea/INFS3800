@@ -287,17 +287,18 @@ article ul {
 }
 
 /* LOGIN */
+
 .login-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%; /* Ensure it fills the grid area */
+    height: 100%; 
 }
 
 .login-form {
     width: 100%;
-    max-width: 360px; /* Set a max-width for the form */
+    max-width: 360px; 
     padding: 2rem;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -329,23 +330,30 @@ article ul {
     background-color: #0056b3;
 }
 
-/* HOME */
-.p-body {
+/* PMENU */
+
+.menu-links {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center text within each item */
-    height: calc(100vh - header_height - footer_height); /* Adjust for header and footer */
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    padding: 20px; 
 }
 
-.p-body h1 {
-    margin-bottom: 2rem; /* Add space below the h1 */
+.menu-links a {
+    background: #000;
+    color: #fff; 
+    padding: 10px 20px; 
+    margin: 10px 0; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+    width: 200px;
+    text-align: center;
+	border: 1px solid rebeccapurple;
 }
 
-.p-body video {
-    width: 80%; /* Adjust width as needed */
-    max-width: 800px; /* Maximum size */
-    height: auto; /* Maintain aspect ratio */
+.menu-links a:hover {
+    background-color: #333; 
 }
-
