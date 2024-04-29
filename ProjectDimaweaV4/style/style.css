@@ -557,46 +557,39 @@ article ul {
 }
 
 .results-list {
+    display: flex;        
+    flex-wrap: wrap;      
     list-style-type: none;
     padding: 0;
-    width: 100%;
-    max-width: 300px; 
+    margin: 0;            
+    width: 100%;          
+    justify-content: center; 
 }
 
 .result-item {
     background-color: white;
     border: 1px solid gray;
     padding: 20px;
-    margin-bottom: 20px;
+    width: calc(33.333% - 40px);
+    margin: 10px;        
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-	text-align: center;
+    text-align: center;
+    box-sizing: border-box; 
 }
 
-.result-item h3 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.result-item p {
-    color: #666;
-    margin: 5px 0;
+.result-item h3, .result-item p {
+    margin: 5px 0;        
 }
 
 .result-item .result-link {
-    display: inline-block;
     padding: 10px 15px;
-    background-color: white;
-    color: black;
-	border: 1px solid gray;
-    text-decoration: none;
-    border-radius: 5px;
     margin-top: 10px;
     transition: background-color 0.3s ease;
 }
 
 .result-item .result-link:hover {
     background-color: black;
-	color: white;
+    color: white;
 }
 

@@ -11,7 +11,7 @@
 			
 		<div class="u-body s-body">
 			<form action="presult.php" method="post"> 
-				<input type="text" name="input" placeholder="Search for AI Technologies...">
+				<input type="text" name="input" placeholder="Search for AI Technologies..." value="Paid">
 				<button type="submit">Search</button>
 			</form>			
 		</div>

@@ -11,7 +11,7 @@
 				</p>
 				<p>
 					About Us <br>
-					<a href='http://localhost/infs3800/ProjectDimaweaV4/php/about.php'>View our story</a>
+					<a href='about.php'>View our story</a>
 				</p>			
 				<p>
 					Location <br>

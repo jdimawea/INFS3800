@@ -15,9 +15,9 @@
 				<img src="../img/ai.png" alt="AI Banner">
 			</div>
 			<div class="menu-links">
-				<a href='http://localhost/infs3800/ProjectDimaweaV4/php/index.php'>Home</a>
-				<a href='http://localhost/infs3800/ProjectDimaweaV4/php/noir.php'>Collection Noir</a>
-				<a href='http://localhost/infs3800/ProjectDimaweaV4/php/psearch.php'>Search</a>
+				<a href='index.php'>Home</a>
+				<a href='noir.php'>Collection Noir</a>
+				<a href='psearch.php'>Search</a>
 			</div>
 		</div>
 		

@@ -4,5 +4,5 @@
 	session_unset() ;
 	session_destroy() ;
 	
-	header('Location: http://localhost/infs3800/ProjectDimaweaV4/php/index.php');
+	header('Refresh:0; url=index.php');
 ?>
